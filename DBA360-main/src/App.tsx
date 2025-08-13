@@ -1055,7 +1055,7 @@ const App: React.FC = () => {
                 <div className="flex-1">
                   <h5 className="font-medium text-gray-800">Dias 4-7: Acompanhamento das Missões</h5>
                   <p className="text-sm text-gray-600">Check-ins diários de 15min, suporte nas atividades, esclarecimento de dúvidas</p>
-                  <div className="text-xs text-green-600 mt-1">💬 Comunicação via Slack/Teams</div>
+                  <div className="text-xs text-green-600 mt-1">💬 Comunicação via Teams</div>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
