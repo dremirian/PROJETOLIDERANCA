@@ -1725,29 +1725,27 @@ const App: React.FC = () => {
         </div>
 	
 
-<div className="bg-gradient-to-l from-blue-700 via-cyan-500 to-teal-300 text-gray-900 p-6 rounded-lg shadow-lg">
-  {/* Container do título */}
-  <div className="text-center mb-4">
-    <h2 className="text-3xl font-extrabold">
-      Academia de Líderes 2025
-    </h2>
+<div className="relative h-28 bg-gradient-to-l from-blue-700 via-cyan-500 to-teal-300
+                text-gray-900 rounded-lg shadow-lg px-6 pr-36 flex items-center">
+  {/* Texto sempre centralizado */}
+  <div className="mx-auto text-center leading-tight">
+    <h2 className="text-2xl font-extrabold">Academia de Líderes 2025</h2>
+    <p className="text-sm font-medium">
+      Equipe: <span className="font-semibold">Andressa Mirian</span> · 
+      <span className="font-semibold"> Gabriela Anselmo</span> · 
+      <span className="font-semibold"> Nary Dorta</span>
+    </p>
   </div>
 
-  {/* Parágrafo da equipe */}
-  <p className="text-lg font-medium text-center mb-4">
-    Equipe: 
-    <span className="font-semibold"> Andressa Mirian</span> · 
-    <span className="font-semibold"> Gabriela Anselmo</span> · 
-    <span className="font-semibold"> Nary Dorta</span>
-  </p>   
-
-  {/* Logo centralizada abaixo */}
-  <img 
-    src={icongurias} 
-    alt="icongurias" 
-    className="w-20 h-auto mx-auto"
+  {/* Logo fixa à direita, ocupando a altura da div */}
+  <img
+    src={icongurias}
+    alt="icongurias"
+    className="absolute right-4 top-1/2 -translate-y-1/2 h-[calc(100%-12px)] w-auto object-contain
+               pointer-events-none select-none"
   />
 </div>
+
 
 
 
