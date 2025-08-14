@@ -1696,7 +1696,7 @@ const App: React.FC = () => {
           >
             <div className="text-center">
               <Presentation className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-gray-800 mb-2">Ver Apresentação</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-2">Apresentação</h3>
               <p className="text-gray-600 text-sm">Slides interativos com justificativa, solução e diferenciais</p>
             </div>
           </div>
