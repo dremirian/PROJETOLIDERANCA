@@ -1055,7 +1055,7 @@ const App: React.FC = () => {
                 <div className="flex-1">
                   <h5 className="font-medium text-gray-800">Dias 4-7: Acompanhamento das Missões</h5>
                   <p className="text-sm text-gray-600">Check-ins diários de 15min, suporte nas atividades, esclarecimento de dúvidas</p>
-                  <div className="text-xs text-green-600 mt-1">💬 Comunicação via Slack/Teams</div>
+                  <div className="text-xs text-green-600 mt-1">💬 Comunicação via Teams</div>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -1422,7 +1422,7 @@ const App: React.FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-blue-50 p-6 rounded-lg">
-                    <h3 className="font-bold text-blue-800 mb-3">📋 Como Funciona</h3>
+                    <h3 className="font-bold text-blue-800 mb-3 text-left">📋 Como Funciona</h3>
                     <ul className="text-sm text-blue-700 space-y-2 text-left">
                       <li>• 8 cenários baseados em situações reais</li>
                       <li>• 3 opções de resposta para cada cenário</li>
@@ -1432,7 +1432,7 @@ const App: React.FC = () => {
                     </ul>
                   </div>
                   <div className="bg-green-50 p-6 rounded-lg">
-                    <h3 className="font-bold text-green-800 mb-3">🎯 Competências Avaliadas</h3>
+                    <h3 className="font-bold text-green-800 mb-3 text-left">🎯 Competências Avaliadas</h3>
                     <ul className="text-sm text-green-700 space-y-2 text-left">
                       <li>• Comunicação eficaz</li>
                       <li>• Gestão de conflitos</li>
@@ -1725,29 +1725,27 @@ const App: React.FC = () => {
         </div>
 	
 
-<div className="bg-gradient-to-l from-blue-700 via-cyan-500 to-teal-300 text-gray-900 p-6 rounded-lg shadow-lg">
-  {/* Container do título */}
-  <div className="text-center mb-4">
-    <h2 className="text-3xl font-extrabold">
-      Academia de Líderes 2025
-    </h2>
+<div className="relative h-28 bg-gradient-to-l from-blue-700 via-cyan-500 to-teal-300
+                text-gray-900 rounded-lg shadow-lg px-6 pr-36 flex items-center">
+  {/* Texto sempre centralizado */}
+  <div className="mx-auto text-center leading-tight">
+    <h2 className="text-2xl font-extrabold">Academia de Líderes 2025</h2>
+    <p className="text-sm font-medium">
+      Equipe: <span className="font-semibold">Andressa Mirian</span> · 
+      <span className="font-semibold"> Gabriela Anselmo</span> · 
+      <span className="font-semibold"> Nary Dorta</span>
+    </p>
   </div>
 
-  {/* Parágrafo da equipe */}
-  <p className="text-lg font-medium text-center mb-4">
-    Equipe: 
-    <span className="font-semibold"> Andressa Mirian</span> · 
-    <span className="font-semibold"> Gabriela Anselmo</span> · 
-    <span className="font-semibold"> Nary Dorta</span>
-  </p>   
-
-  {/* Logo centralizada abaixo */}
-  <img 
-    src={icongurias} 
-    alt="icongurias" 
-    className="w-20 h-auto mx-auto"
+  {/* Logo fixa à direita, ocupando a altura da div */}
+  <img
+    src={icongurias}
+    alt="icongurias"
+    className="absolute right-4 top-1/2 -translate-y-1/2 h-[calc(100%-12px)] w-auto object-contain
+               pointer-events-none select-none"
   />
 </div>
+
 
 
 
