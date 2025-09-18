@@ -1759,8 +1759,8 @@ const App: React.FC = () => {
 </div>
           </div>
           <div>
-            <p className="text-lg opacity-90">Conectando Legado e Futuro</p>
-            <p className="text-lg opacity-90">Uma jornada de integração gamificada em 6 missões temáticas</p>
+            <p className="text-lg opacity-90">Conectando <strong>Legado</strong> e <strong>Futuro</strong></p>
+           
           </div>
         </header>
 
