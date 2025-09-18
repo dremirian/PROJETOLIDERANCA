@@ -384,7 +384,7 @@ const App: React.FC = () => {
     },
     {
       id: 4,
-      title: "Conflito entre Membros do Time.",
+      title: "Conflito entre Membros do Time",
       description: "Conflito afeta o projeto.",
       choices: [
         { id: 'A', text: 'Alinha com cada um individualmente, sem expor o conflito', consequence: 'Pode aliviar a tensão, mas o problema não é resolvido na raiz.', points: 60 },
