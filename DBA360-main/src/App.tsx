@@ -482,9 +482,9 @@ const App: React.FC = () => {
     <div className="space-y-6">
       <div className="text-justify">          
         <p className="text-lg text-gray-600">
-          Transformar o onboarding da DBAOnline em uma jornada estratégica, imersiva e gamificada, que acelere a integração de novos talentos, promova o alinhamento cultural entre as áreas e desenvolva competências práticas desde o primeiro dia.
+          Transformamos o onboarding em uma jornada estratégica, imersiva e gamificada para acelerar a integração de talentos, alinhar cultura entre áreas e desenvolver competências práticas desde o primeiro dia.
      
-          <span className="font-bold text-black-600"> O onboarding 360 é inclusivo, colaborativo e feito para todos!</span>
+          <span className="font-bold text-black-600"> O onboarding A360 é inclusivo, colaborativo e feito para todos!</span>
         </p>
       </div>
       
@@ -495,7 +495,7 @@ const App: React.FC = () => {
   className="mx-auto mb-4 rounded-lg"
   style={{ width: '40%', height: 'auto' }}
 />
-       <p className="text-lg text-gray-600"> Mais do que um onboarding, queremos criar uma experiência de entrada que já reflita quem somos, para onde vamos e o que esperamos de quem constrói esse caminho com a gente. Esse projeto é uma ponte estratégica para sustentar o crescimento, alinhamento cultural e excelência operacional da DBAOnline.
+        <p className="text-lg text-gray-600 text-center"> "Criamos uma experiência de entrada que reflete quem somos, para onde vamos e o que esperamos de quem constrói esse caminho conosco." 
 	   </p>
     </div>
   )
