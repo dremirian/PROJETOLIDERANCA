@@ -1760,7 +1760,7 @@ const App: React.FC = () => {
 </div>
           </div>
           <div>
-            <p className="text-lg opacity-90">Conectando <strong>Legado</strong> e <strong>Futuro</strong></p>
+           
            
           </div>
         </header>
