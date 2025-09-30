@@ -490,10 +490,11 @@ const App: React.FC = () => {
       
       
           <img
-            src={ciclo}
-            alt="ciclo"
-           className="w-90 h-auto mx-auto mb-4 rounded-lg"
-          />
+  src={ciclo}
+  alt="ciclo"
+  className="mx-auto mb-4 rounded-lg"
+  style={{ width: '40%', height: 'auto' }}
+/>
        <p className="text-lg text-gray-600"> Mais do que um onboarding, queremos criar uma experiência de entrada que já reflita quem somos, para onde vamos e o que esperamos de quem constrói esse caminho com a gente. Esse projeto é uma ponte estratégica para sustentar o crescimento, alinhamento cultural e excelência operacional da DBAOnline.
 	   </p>
     </div>
