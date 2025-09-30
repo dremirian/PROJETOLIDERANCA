@@ -1750,12 +1750,13 @@ const App: React.FC = () => {
           <div className="flex items-center justify-center mb-6 bg-gradient-to-r from-teal-300 via-cyan-500 to-blue-700 text-white p-6 rounded-lg shadow-lg">
           
 <div className="flex flex-col items-center justify-center">
+	  <p className="text-2xl font-bold mb-2 text-black text-center"> Onboarding</p>
   <img 
     src={logo} 
     alt="DBA360 Logo" 
     className="h-36 w-auto object-contain mb-2"
   />
-  <p className="text-2xl font-bold mb-2 text-black text-center">Plataforma de Onboarding</p>
+
 </div>
           </div>
           <div>
