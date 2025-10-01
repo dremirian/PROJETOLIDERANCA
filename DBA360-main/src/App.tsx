@@ -151,7 +151,7 @@ const App: React.FC = () => {
       examples: [
         {
           title: "Exemplo de Pitch Vencedor",
-          content: "Olá! Sou João, novo DBA. Com minha experiência em React e paixão por inovação, vou contribuir criando soluções que conectem nossa tradição de 25 anos com as tecnologias do futuro, sempre priorizando a excelência que nos trouxe até aqui."
+          content: "Olá! Sou João, novo DBA. Com minha experiência e paixão por inovação, vou contribuir criando soluções que conectem nossa tradição de 25 anos com as tecnologias do futuro, sempre priorizando a excelência que nos trouxe até aqui."
         },
         {
           title: "Dinâmica dos Valores",
